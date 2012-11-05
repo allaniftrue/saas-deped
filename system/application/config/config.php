@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url'] = "https://".$_SERVER['HTTP_HOST'];
+$config['base_url'] = "http://".$_SERVER['HTTP_HOST'];
 $config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']); 
 
 /*
@@ -268,7 +268,7 @@ $config['sess_time_to_update']	= 300;
 $config['cookie_prefix']	= "";
 $config['cookie_domain']	= "";
 $config['cookie_path']		= "/";
-$config['cookie_secure']	= TRUE;
+$config['cookie_secure']	= FALSE;
 
 /*
 |--------------------------------------------------------------------------
