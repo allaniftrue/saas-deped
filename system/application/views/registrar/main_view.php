@@ -1,8 +1,6 @@
 <?php $this->load->view('registrar/main_header_view'); ?>
 <section id="avApps" class="span11">
-    <div class="page-header">
-        <h2>Applications</h2>
-    </div>
+    <h2>Applications</h2>
     <div class="span10 show-grid">
         <div class="span1" rel="tooltip" title="Personal Data Sheet (CS Form 212)" id="pds">
             <a href="<?=base_url()?>?mc=account<?='&t=1&sess='.random_string('alnum', 64).'&k='.random_string('alnum', 32)?>">
